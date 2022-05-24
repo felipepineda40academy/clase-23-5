@@ -1,0 +1,6 @@
+{
+    "nombre":"string",
+    "cedula":"integer",
+    "edad":"integer",
+    "direccion":"string"
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <form id="myForm" class="m-5">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Plataforma para subir tarea</label>
+          <input id="id_platform" type="text" class="form-control" id="id_input" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Ingresa la plataforma en la que subiste la tarea</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Equipo con que subio tarea</label>
+          <input id="id_equipment" type="text" class="form-control" id="id_input" aria-describedby="emailHelp">
+          
+        </div>
+        
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Lenguajes de programacion con los que hizo la tarea</label>
+          <input id="id_programming_languages" type="text" class="form-control" id="id_input" aria-describedby="emailHelp">
+        </div>
+        
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="id_checkbox" value="true">
+          <label class="form-check-label" for="exampleCheck1">Quiero seguir teniendo tarea</label>
+        </div>
+        <div>Sistema operativo favorito: </div>
+        <div id="os_option">
+            <input type="radio" id="r1" personalizado="os" value="Ubuntu"> Ubuntu
+            <input type="radio" id="r2" personalizado="os" value="Windows"> Windows
+            <input type="radio" id="r3" personalizado="os" value="MacOS" checked="checked"> MacOS  
+          </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    <script src="./homework.js"></script>
+</body>
+</html>
